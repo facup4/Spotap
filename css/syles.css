@@ -221,10 +221,10 @@
   border-radius: 30px;
   background: #efefef;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: #3f3f48;
-  padding: 2.4rem 2.4rem;
+  padding: 1.6rem;
   font-weight: 700;
   font-size: 1.8rem;
 }
@@ -233,12 +233,12 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  border-right: 1px solid #3f3f48;
-  padding-right: 2.8rem;
+  border-left: 1px solid #3f3f48;
+  padding-left: 2.8rem;
 }
 
-.form-box-last {
-  border-right: none;
+.form-box-first {
+  border-left: none;
 }
 
 #btn-buy {
