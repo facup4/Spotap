@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0,625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  line-height: 0.7rem;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+strong {
+  font-weight: 600;
+}

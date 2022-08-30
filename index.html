@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/syles.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <title>Spotap - Find your place</title>
+  </head>
+
+  <body>
+    <header class="header sticky">
+      <ul class="main-nav-list">
+        <a href="#">
+          <img class="logo" src="img/logo-spotap.png" alt="Spotap Logo"
+        /></a>
+        <li>
+          <a class="main-nav-link" href="#how"> Buy</a>
+        </li>
+        <li>
+          <a class="main-nav-link" href="#coaches"> Rent</a>
+        </li>
+      </ul>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how">
+              <img src="img/icon-house.svg" alt="" />
+              My home</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#coaches">
+              <img src="img/icon-hearth.svg" alt="" />
+              Saved</a
+            >
+          </li>
+
+          <li>
+            <a class="main-nav-link cta-login" href="#cta">Login</a>
+          </li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Sign up</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <div class="container">
+      <section class="section-hero">
+        <div class="text-box">
+          <div class="heading-box">
+            <span class="hero-heading">
+              <strong>Discover</strong> <br />
+              your happy place
+            </span>
+
+            <div class="form-box">
+              <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="leftClick()">
+                  <span id="btn-buy">BUY</span>
+                </button>
+                <button type="button" class="toggle-btn" onclick="rightClick()">
+                  <span id="btn-rent">RENT</span>
+                </button>
+              </div>
+            </div>
+
+            <form action="" class="hero-form">
+            <div class="form-box">
+              <div class="filter">
+                <div class="form-box">  
+                  <p>Location</p>
+                <select name="" id="">
+                  <option value="Default">Eg. Liverpool St.</option>
+                </select>
+  </div>
+
+
+  <div class="form-box">  
+    <p>Prince range</p>
+    <select name="" id=""> 
+      <option value="Default">Any price</option>
+    </select>
+</div>
+
+<div class="form-box">   
+  <p>Property type</p> 
+  <select name="" id="">
+    <option value="Default"> <span class="opt-default">Show all</span> </option>
+  </select>
+</div>
+
+<div class="form-box form-box-last">  
+  <p>Bedrooms</p>
+  <select name="" id="">
+    <option value="Default">Any beds</option>
+  </select>
+</div>
+
+<div class="form-box-img">  
+
+  <a href="#"><img src="img/Lupita-02.svg" alt=""></a>
+  
+</div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="experience ">
+        <div class="grid grid--3-cols">
+          <div class="col">s</div>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
+
+    <script src="JS/main.js"></script>
+  </body>
+</html>
+
+<!-- /*
+    
+    <div class="hero-btns">
+  <div class="button-box">
+    <a class="btn-hero btn-hero--buy" href="#">BUY</a>
+    <a class="btn-hero btn-hero--rent" href="#">RENT</a>
+  </div>
+</div>
+    
+    
+    */ -->
