@@ -335,6 +335,13 @@ select {
   row-gap: 3.6rem;
 }
 
+.place-description {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+}
+
 .place-name {
   font-size: 2.4rem;
   color: #ffd0e4;
@@ -342,19 +349,14 @@ select {
   margin-top: 1rem;
 }
 
-.place-img {
+.place-img,
+.news-img {
   width: 100%;
 }
 
 .places img {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-}
-
-.place-description {
-  font-size: 1.6rem;
-  color: #fff;
-  font-weight: 300;
 }
 
 .btn-place {
@@ -419,4 +421,158 @@ select {
 
 .invisible {
   color: #f25a29;
+}
+
+/*******************************/
+/* NEWS  SECTION */
+/*******************************/
+
+.section-latest-properties {
+  padding: 9.6rem 0;
+}
+
+.news-container {
+  margin-top: 4rem;
+}
+
+.text-box-properties {
+  display: flex;
+
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.heading-properties {
+  padding-right: 50rem;
+}
+
+.subheading-properties {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.flex-properties {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-news {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 2.1rem;
+  overflow: hidden;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-content {
+  padding: 5rem 4.8rem;
+  background-color: #ffd0e4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 3.6rem;
+}
+
+.news-date {
+  font-size: 1.6rem;
+  color: #f25a29;
+  font-weight: 600;
+}
+
+.news-title {
+  font-size: 3.8rem;
+  color: #3f3f48;
+  font-weight: 700;
+}
+
+.news-description {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #3f3f48;
+}
+
+/*******************************/
+/* FOOTER */
+/*******************************/
+
+.footer {
+  margin-top: 20rem;
+  background-color: #f25a29;
+  padding: 5.2rem 6rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffd0e4;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 200;
+  list-style: none;
+}
+
+.footer li a {
+  color: #fff;
+}
+
+.copyright-box {
+  display: flex;
+  font-size: 1.2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3rem;
+  gap: 3.8rem;
+  color: #fff;
+  font-weight: 100;
+  margin-top: 4.8rem;
+}
+
+.form-col {
+  grid-column: 3 / span 2;
+}
+
+.cta-subscribe {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.8rem 2.6rem;
+  border-radius: 2rem;
+  border: none;
+  text-decoration: none;
+  background-color: #ffa4ca;
+  color: #fff;
+}
+
+.email-box-form {
+  border-radius: 1.4rem;
+  padding: 1rem 10rem 0 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: 1.6px solid #a8a8b4;
+  color: #a8a8b4;
+}
+
+.flex-form {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-media-text {
+  font-size: 1.6rem;
+  color: #ffd0e4;
+  font-weight: 600;
+}
+
+.social-media-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
 }
