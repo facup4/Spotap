@@ -309,8 +309,12 @@ select {
 .subheading {
   font-size: 1.6rem;
   font-weight: 500;
-  text-decoration: underline;
   color: #f25a29;
+  transition: all 0.4s;
+}
+
+.subheading:hover {
+  text-decoration: underline;
 }
 
 .places-container {
@@ -402,6 +406,9 @@ select {
   background-image: url(../img/find-your-home.png);
   background-size: cover;
   background-position: center;
+  border-radius: 2.6rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .btn-cta {
@@ -466,7 +473,7 @@ select {
 }
 
 .news-content {
-  padding: 5rem 4.8rem;
+  padding: 5rem 6rem;
   background-color: #ffd0e4;
   display: flex;
   flex-direction: column;
@@ -484,6 +491,10 @@ select {
   font-size: 3.8rem;
   color: #3f3f48;
   font-weight: 700;
+}
+
+.news-title:hover {
+  text-decoration: underline;
 }
 
 .news-description {
