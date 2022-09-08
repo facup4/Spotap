@@ -1,8 +1,8 @@
-var btn = document.getElementById("btn");
+const btn = document.getElementById("btn");
 
-var textColorBuy = document.getElementById("btn-buy");
+const textColorBuy = document.getElementById("btn-buy");
 
-var textColorRent = document.getElementById("btn-rent");
+const textColorRent = document.getElementById("btn-rent");
 
 function leftClick() {
   btn.style.left = "0";
@@ -15,3 +15,13 @@ function rightClick() {
   textColorRent.style.color = "white";
   textColorBuy.style.color = "#f25a29";
 }
+
+///////////////////////////////////////////////////////////
+// Making mobile navigation work
+
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});

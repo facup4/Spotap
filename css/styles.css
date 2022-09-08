@@ -42,7 +42,12 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #5600b0;
+  color: #f25a29;
+}
+
+.img-nav:hover,
+.img-nav:active {
+  color: #f25a29;
 }
 
 .main-nav-link.nav-cta:link,
@@ -64,7 +69,13 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #5600b0;
+  background-color: #da5125;
+}
+
+.main-nav-link.cta-login:hover,
+.main-nav-link.cta-login:active {
+  color: #fff;
+  background-color: #3f3f48;
 }
 
 /* MOBILE */
@@ -331,12 +342,12 @@ select {
 }
 
 .place-content {
-  padding: 5rem 4.8rem;
+  padding: 4rem 3rem;
   background-color: #f25a29;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  row-gap: 3.6rem;
+  row-gap: 2rem;
 }
 
 .place-description {
@@ -368,8 +379,13 @@ select {
   font-weight: 500;
   background-color: #fff;
   color: #f25a29;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2.8rem;
   border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.btn-place:hover {
+  background-color: rgb(235, 235, 235);
 }
 
 /*******************************/
@@ -388,9 +404,10 @@ select {
 }
 
 .cta-heading {
-  font-size: 5rem;
+  font-size: 3.8rem;
   font-weight: 400;
   text-align: right;
+  line-height: 4.8rem;
 }
 
 .cta-text-box {
@@ -418,6 +435,10 @@ select {
   border-radius: 2rem;
   background-color: #f25a29;
   color: #fff;
+}
+
+.btn-cta:hover {
+  background-color: #da5125;
 }
 
 .cta-text {
@@ -508,7 +529,7 @@ select {
 /*******************************/
 
 .footer {
-  margin-top: 20rem;
+  margin-top: 10rem;
   background-color: #f25a29;
   padding: 5.2rem 6rem;
 }
